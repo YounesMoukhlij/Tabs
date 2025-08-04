@@ -13,6 +13,16 @@ const paragraphe = [
     "This is the content for the Seventh Tab - FAQ and support."
 ];
 
+// navBtn: This is likely a NodeList or array of DOM elements, representing a list of buttons (e.g. from document.querySelectorAll('.navBtn')).
+
+// .forEach(): A method that loops through every item in an array (or NodeList).
+
+// (button, i):
+
+// button: the current element in the loop (each button in navBtn)
+
+// i: the index of the current element (starting from 0)
+
 navBtn.forEach((button, i) =>
 {
     button.addEventListener('click', function()
